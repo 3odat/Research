@@ -4516,7 +4516,9 @@ Now update the progress tracker and summary table:
 
 
 ### User Input
-<b> <span style="color: red;"> Is the gap 1 ready for a paper just tell me and why and what is a next step do you think just tell me dont impelment anything  </span> </b> 
+<p style="color: red;">
+Is the gap 1 ready for a paper just tell me and why and what is a next step do you think just tell me dont impelment anything
+</p>
 
 ### Planner Response
 
