@@ -5,23 +5,29 @@ Note: _This is purely the output of the chat conversation and does not contain a
 <style>
 .chat-role {
   display: block;
+  margin-top: 1.1rem;
+  margin-bottom: 0.45rem;
+  font-weight: 900;
+  font-size: 1.3rem;
+  letter-spacing: 0.02em;
+  line-height: 1.2;
   width: fit-content;
-  padding: 0.3rem 0.6rem;
-  margin-top: 1rem;
-  margin-bottom: 0.5rem;
-  border-radius: 0.5rem;
-  font-weight: 700;
-  letter-spacing: 0.01em;
+}
+.chat-role::after {
+  content: "";
+  display: block;
+  width: 4.5rem;
+  height: 2px;
+  margin-top: 0.18rem;
+  border-radius: 999px;
+  background: currentColor;
+  opacity: 0.35;
 }
 .chat-role.user {
-  color: #14532d;
-  background: #dcfce7;
-  border: 1px solid #86efac;
+  color: #14803a;
 }
 .chat-role.planner {
-  color: #1e3a8a;
-  background: #dbeafe;
-  border: 1px solid #93c5fd;
+  color: #c62828;
 }
 </style>
 
