@@ -25,6 +25,10 @@ This differs fundamentally from **GAP 1** (one drone, one attack, direct effect)
 | 2.4b     | S05  | Full-Pipeline              | 42, 123, 256, 512, 1024 | 5         | ~25 min |
 | 2.5a–c   | S11  | R + P + F                  | 42, 123, 256, 512, 1024 | 15        | ~38 min |
 
+- Defense ON runs: S06 + S10 full-pipeline with 2 seeds (42, 123) after baselines.
+- Total: ~43 baseline runs + 4 defense runs · ~3 hours total
+Whenever you're ready, say "Start S06" and I'll launch it.
+
 
 
 
