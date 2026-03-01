@@ -12,6 +12,22 @@ This differs fundamentally from **GAP 1** (one drone, one attack, direct effect)
 
 ---
 
+## Plan of GAP2 for lunching attacks
+
+| Scenario | Mode | Seeds                      |                  # Runs | Est. Time |         |
+| -------- | ---- | -------------------------- | ----------------------: | --------- | ------- |
+| 2.1a     | S06  | Retrieval                  | 42, 123, 256, 512, 1024 | 5         | ~3 min  |
+| 2.1b     | S06  | Planning                   | 42, 123, 256, 512, 1024 | 5         | ~10 min |
+| 2.1c     | S06  | Full-Pipeline (2 drones)   | 42, 123, 256, 512, 1024 | 5         | ~25 min |
+| 2.2      | S10  | Full-Pipeline (2 drones)   | 42, 123, 256, 512, 1024 | 5         | ~25 min |
+| 2.3      | S15  | Full-Pipeline (3 missions) |            42, 123, 256 | 9         | ~45 min |
+| 2.4a     | S05  | Planning                   | 42, 123, 256, 512, 1024 | 5         | ~10 min |
+| 2.4b     | S05  | Full-Pipeline              | 42, 123, 256, 512, 1024 | 5         | ~25 min |
+| 2.5a–c   | S11  | R + P + F                  | 42, 123, 256, 512, 1024 | 15        | ~38 min |
+
+
+
+
 ## The Scenarios (from `attack_roadmap.md`)
 
 ### 🔴 S06 — Cross-Agent Contagion (Core GAP 2 proof)
